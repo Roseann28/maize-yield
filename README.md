@@ -41,3 +41,5 @@ Training years 2016 to 2019, test year 2020, cross validation inside the trainin
 
 ## Note on the saved model
 `Model/maize_model.joblib` was trained earlier on all five seasons, and its stored estimate (`Model/metadata.json`) comes from that earlier setup. The notebook does not save a model, so the served model is not the same run as the notebook results above.
+<img width="830" height="404" alt="image" src="https://github.com/user-attachments/assets/ff20ce65-d8c4-4201-b639-a0b9e1310451" />
+
