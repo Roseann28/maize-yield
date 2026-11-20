@@ -1,0 +1,466 @@
+feature_a,feature_b,mean_abs_interaction,pair_type
+can_kg_ha,dap_kg_ha,56.494551722382504,other
+row_spacing,seed_type,32.047240629266405,other
+dap_kg_ha,drought,30.73614514802893,other
+drought,soil_carbon,30.346806179682414,practice x soil
+dap_kg_ha,seed_type,25.614360180176057,other
+soil_nitrogen,soil_phosphorus,25.45914185968538,other
+row_spacing,soil_carbon,24.29843187729828,practice x soil
+can_kg_ha,seed_type,23.394208832964456,other
+drought,seed_type,22.8781912210184,other
+drought,soil_ph,21.203634190919498,practice x soil
+soil_clay,soil_phosphorus,21.13501914129282,other
+can_kg_ha,soil_carbon,21.02556985296309,practice x soil
+plot_hectares,soil_carbon,20.667394998148083,practice x soil
+soil_carbon,soil_phosphorus,20.509333742931485,other
+soil_nitrogen,soil_potassium,20.441644040594497,other
+drought,soil_sand,20.202296699704604,practice x soil
+electricity,plant_doy,20.152519512289825,other
+seed_type,soil_nitrogen,19.946984150829522,practice x soil
+fertility,soil_carbon,19.664050976186992,practice x soil
+can_kg_ha,fertility,18.59314629405611,other
+can_kg_ha,drought,17.714982415552562,other
+fertility,seed_type,17.489702165059327,other
+dap_kg_ha,plot_hectares,17.33567862349252,other
+can_kg_ha,plot_hectares,17.011901365866265,other
+dap_kg_ha,soil_carbon,16.801937135383486,practice x soil
+dap_kg_ha,soil_nitrogen,16.669194849381846,practice x soil
+seed_type,soil_carbon,16.614802444652984,practice x soil
+dap_kg_ha,electricity,16.422750240694537,other
+seed_type,soil_potassium,16.263524784695473,practice x soil
+soil_phosphorus,soil_sand,16.243048139214515,other
+can_kg_ha,soil_clay,16.205477558759352,practice x soil
+livestock,seed_type,15.711036104083954,other
+livestock,soil_potassium,15.692352103280525,practice x soil
+soil_ph,soil_phosphorus,15.37425921647499,other
+plant_spacing,seed_type,14.959814354901804,other
+soil_carbon,soil_potassium,14.782959056670467,other
+plant_doy,soil_clay,14.13770321678215,practice x soil
+electricity,soil_nitrogen,13.773771607917151,practice x soil
+drought,fertility,13.217954681195163,other
+electricity,seed_type,13.208153992386748,other
+livestock,soil_phosphorus,13.09223118012771,practice x soil
+livestock,soil_sand,13.07538970864378,practice x soil
+livestock,soil_ph,12.978648414307584,practice x soil
+seed_type,soil_ph,12.956418523690274,practice x soil
+plant_doy,weed,12.906661064107903,other
+soil_carbon,soil_nitrogen,12.906401932090521,other
+can_kg_ha,plant_doy,12.661247349379119,other
+livestock,soil_nitrogen,12.522166290854415,practice x soil
+electricity,soil_clay,12.450176359592005,practice x soil
+soil_ph,soil_sand,12.171518411139647,other
+plant_doy,soil_nitrogen,12.057557168959951,practice x soil
+dap_kg_ha,fertility,11.936836276386748,other
+soil_phosphorus,soil_potassium,11.883789692620436,other
+plot_hectares,soil_nitrogen,11.687436233249803,practice x soil
+seed_type,soil_phosphorus,11.672176525746181,practice x soil
+plant_doy,seed_type,11.66014505654816,other
+plant_spacing,plot_hectares,11.61027001191241,other
+dap_kg_ha,row_spacing,11.530691610562304,other
+fertility,soil_ph,11.080229427490073,practice x soil
+drought,soil_potassium,10.980528109818698,practice x soil
+seed_type,soil_clay,10.899444922934029,practice x soil
+plant_spacing,row_spacing,10.873058596509509,other
+plant_spacing,soil_potassium,10.812437920104712,practice x soil
+fertility,soil_potassium,10.758407241622917,practice x soil
+plant_doy,soil_carbon,10.729114000964909,practice x soil
+soil_clay,soil_nitrogen,10.66941369711111,other
+drought,row_spacing,10.63678588518873,other
+pesticide,soil_phosphorus,10.588994117658585,practice x soil
+dap_kg_ha,plant_doy,10.587009095881756,other
+soil_nitrogen,soil_ph,10.553142521679401,other
+fertility,row_spacing,10.54033319398916,other
+row_spacing,soil_phosphorus,10.504189533311873,practice x soil
+distance_meter,soil_carbon,10.27239745513342,practice x soil
+livestock,plot_hectares,10.174750788643335,other
+pesticide,seed_type,10.088894846356585,other
+plant_doy,soil_phosphorus,10.067983832486595,practice x soil
+soil_clay,soil_sand,10.031257087041935,other
+plot_hectares,soil_phosphorus,9.960201492557923,practice x soil
+plant_doy,plant_spacing,9.911224296730943,other
+fertility,soil_nitrogen,9.853487774338573,practice x soil
+can_kg_ha,soil_sand,9.844859864506871,practice x soil
+soil_clay,soil_potassium,9.797460941250126,other
+plot_hectares,seed_type,9.752731928109643,other
+fertility,plot_hectares,9.730573396924107,other
+pesticide,soil_carbon,9.590512685505674,practice x soil
+can_kg_ha,soil_phosphorus,9.473238148813447,practice x soil
+soil_carbon,soil_sand,9.307564679582914,other
+plant_doy,soil_potassium,9.24210080059672,practice x soil
+pesticide,soil_nitrogen,9.140752889226812,practice x soil
+can_kg_ha,row_spacing,9.100124997211,other
+plot_hectares,row_spacing,8.97812038625901,other
+plant_doy,row_spacing,8.9218396417719,other
+soil_clay,soil_ph,8.917743763849138,other
+drought,pesticide,8.806709931554893,other
+can_kg_ha,soil_nitrogen,8.739526727236807,practice x soil
+can_kg_ha,soil_potassium,8.633239339118203,practice x soil
+dap_kg_ha,soil_phosphorus,8.461236163595071,practice x soil
+row_spacing,soil_nitrogen,8.427767762715618,practice x soil
+distance_meter,seed_type,8.270897201999238,other
+pesticide,plant_spacing,8.220555792013183,other
+row_spacing,soil_potassium,8.211162170923005,practice x soil
+dap_kg_ha,soil_sand,8.151120365709067,practice x soil
+plant_spacing,soil_carbon,8.102698858665923,practice x soil
+dap_kg_ha,plant_spacing,7.996171214667459,other
+plot_hectares,soil_sand,7.986675279587507,practice x soil
+seed_type,soil_sand,7.9368732711807635,practice x soil
+can_kg_ha,plant_spacing,7.760034623166236,other
+fertility,soil_phosphorus,7.719281205491473,practice x soil
+distance_meter,soil_potassium,7.709403392260295,practice x soil
+livestock,soil_carbon,7.674487848716478,practice x soil
+electricity,livestock,7.538131964884233,other
+soil_nitrogen,soil_sand,7.492929138243198,other
+distance_meter,plant_doy,7.4023430126521275,other
+livestock,plant_doy,7.379615743237082,other
+drought,plant_doy,7.376227179421112,other
+fertility,plant_doy,7.373113175547527,other
+dap_kg_ha,pesticide,7.364161549306785,other
+soil_carbon,soil_ph,7.341999693798522,other
+drought,plot_hectares,7.329934495288083,other
+livestock,row_spacing,7.298982860355949,other
+plant_doy,plot_hectares,7.2616049780448275,other
+livestock,soil_clay,7.165852737144257,practice x soil
+dap_kg_ha,soil_ph,7.158925210100909,practice x soil
+drought,soil_phosphorus,7.136713730344393,practice x soil
+dap_kg_ha,livestock,7.118791546806072,other
+drought,livestock,7.1072570040387415,other
+plant_spacing,soil_nitrogen,6.992499358129377,practice x soil
+fertility,livestock,6.9788666866257945,other
+soil_potassium,soil_sand,6.784720968579252,other
+plot_hectares,soil_potassium,6.722405692028502,practice x soil
+plot_hectares,soil_ph,6.706333803044012,practice x soil
+fertility,plant_spacing,6.6804832802507255,other
+fertility,weed,6.6421845128208705,other
+can_kg_ha,pesticide,6.640343321959178,other
+can_kg_ha,soil_ph,6.5900353642273695,practice x soil
+pesticide,soil_clay,6.587994680559883,practice x soil
+dap_kg_ha,soil_potassium,6.537779906131327,practice x soil
+compost,soil_nitrogen,6.5248451664314295,practice x soil
+plot_hectares,weed,6.451255817094935,other
+drought,soil_nitrogen,6.419997570792524,practice x soil
+soil_carbon,soil_clay,6.360079777498419,other
+can_kg_ha,electricity,6.343623403289045,other
+fertility,soil_sand,6.264686059743399,practice x soil
+plant_doy,soil_ph,6.165562128631864,practice x soil
+intercrop,soil_phosphorus,6.101138925751051,practice x soil
+distance_meter,row_spacing,6.053762227996679,other
+distance_meter,soil_nitrogen,5.971784028430508,practice x soil
+plant_spacing,soil_clay,5.9481681929342445,practice x soil
+pesticide,soil_potassium,5.814576661591418,practice x soil
+compost,soil_potassium,5.800812152388195,practice x soil
+plant_spacing,soil_sand,5.727863745545037,practice x soil
+plot_hectares,soil_clay,5.679164481529345,practice x soil
+intercrop,plot_hectares,5.670852529841165,other
+drought,soil_clay,5.585465908907354,practice x soil
+plant_doy,soil_sand,5.55993546327576,practice x soil
+row_spacing,soil_ph,5.558355956774515,practice x soil
+electricity,soil_phosphorus,5.552209675443979,practice x soil
+seed_type,weed,5.527139250187635,other
+electricity,soil_potassium,5.4778420264956855,practice x soil
+electricity,row_spacing,5.473777454461476,other
+soil_ph,soil_potassium,5.42867010290424,other
+electricity,plot_hectares,5.296429293161879,other
+distance_meter,plant_spacing,5.281435772371042,other
+can_kg_ha,weed,5.201050119890521,other
+electricity,soil_carbon,5.1178453052742405,practice x soil
+fertility,soil_clay,5.051707099511307,practice x soil
+slope,soil_nitrogen,5.05022599518726,practice x soil
+pesticide,plant_doy,5.042721590454457,other
+pesticide,plot_hectares,5.0384000214173765,other
+distance_meter,soil_sand,5.001533193617749,practice x soil
+can_kg_ha,livestock,4.974415742991647,other
+fertility,hh_num_under18,4.971731969482886,other
+distance_meter,livestock,4.9538167255787995,other
+plant_spacing,soil_phosphorus,4.9461730333309,practice x soil
+row_spacing,soil_sand,4.943398459998231,practice x soil
+distance_meter,fertility,4.9055254546329765,other
+distance_meter,drought,4.8944604705568056,other
+row_spacing,soil_clay,4.819726135763339,practice x soil
+flood,plot_hectares,4.784744332196812,other
+electricity,soil_ph,4.726700324108048,practice x soil
+drought,plant_spacing,4.715643662312359,other
+plant_spacing,soil_ph,4.6715057703930265,practice x soil
+flood,livestock,4.64881115649206,other
+can_kg_ha,distance_meter,4.638988086664273,other
+electricity,plant_spacing,4.606965887367259,other
+distance_meter,soil_phosphorus,4.5841176411357205,practice x soil
+distance_meter,slope,4.512395802757637,other
+dap_kg_ha,intercrop,4.511810931041837,other
+pesticide,soil_ph,4.490233005913906,practice x soil
+hh_num_under18,plant_spacing,4.468143832311034,other
+hh_num,soil_nitrogen,4.425415248982608,practice x soil
+distance_meter,plot_hectares,4.4163532928542315,other
+compost,electricity,4.403060080096669,other
+soil_potassium,weed,4.353833887289899,practice x soil
+hh_num,plant_doy,4.221802243902348,other
+hh_num_under18,seed_type,4.220250419807805,other
+livestock,plant_spacing,4.200312012264039,other
+distance_meter,soil_clay,4.175870248133627,practice x soil
+dap_kg_ha,soil_clay,4.1259312180740135,practice x soil
+electricity,soil_sand,4.113351781289481,practice x soil
+hh_num,plant_spacing,4.052207901818522,other
+dap_kg_ha,weed,3.9988897353426243,other
+hh_num,seed_type,3.993278078824666,other
+dap_kg_ha,distance_meter,3.97813038534252,other
+pest_disease,row_spacing,3.956553698761854,other
+soil_nitrogen,weed,3.9534666683229926,practice x soil
+row_spacing,weed,3.9265944837305384,other
+electricity,fertility,3.9151105587650092,other
+soil_phosphorus,weed,3.846636897670105,practice x soil
+can_kg_ha,hh_num,3.7396379883897803,other
+drought,hh_num,3.7326944591174835,other
+electricity,pesticide,3.6978235840335643,other
+flood,soil_clay,3.6876749678701164,practice x soil
+pest_disease,seed_type,3.6487596059550924,other
+hh_num_under18,plant_doy,3.604871567578521,other
+flood,plant_doy,3.574960931849976,other
+soil_carbon,weed,3.5688696756105247,practice x soil
+dap_kg_ha,hh_num,3.5268575252126904,other
+hh_num_under18,soil_sand,3.516150115754766,practice x soil
+compost,plant_doy,3.490516279458437,other
+distance_meter,soil_ph,3.472071744803349,practice x soil
+fertility,hh_num,3.4458881033429254,other
+pesticide,row_spacing,3.4367850464590206,other
+fertility,slope,3.423360858661181,other
+hh_num_under18,soil_clay,3.4144200478866695,practice x soil
+livestock,weed,3.3491203811089507,other
+hh_num,soil_carbon,3.322972465765973,practice x soil
+distance_meter,pesticide,3.3150569141114827,other
+drought,weed,3.305636220254625,other
+hh_num,soil_sand,3.2738315686412776,practice x soil
+seed_type,slope,3.271531022423345,other
+soil_clay,weed,3.2643341665404537,practice x soil
+compost,soil_clay,3.259579899192322,practice x soil
+hh_num_under18,soil_nitrogen,3.234217802248895,practice x soil
+plant_spacing,weed,3.202424932574698,other
+plant_doy,slope,3.1966054940593795,other
+hh_num_under18,plot_hectares,3.154655342915406,other
+hh_num,soil_phosphorus,3.1249443712023397,practice x soil
+hh_num,row_spacing,2.9699108469160276,other
+intercrop,seed_type,2.906051724485005,other
+can_kg_ha,compost,2.880345737297709,other
+slope,soil_potassium,2.833775993966362,practice x soil
+distance_meter,weed,2.833077824442395,other
+fertility,pesticide,2.7847572489090573,other
+can_kg_ha,pest_disease,2.7627553309476935,other
+distance_meter,electricity,2.7483634114319284,other
+flood,soil_ph,2.7341834856247687,practice x soil
+hh_num,livestock,2.7339854398835453,other
+livestock,pesticide,2.6625813329343995,other
+hh_num,soil_potassium,2.648223805073649,practice x soil
+row_spacing,slope,2.6334034621272195,other
+hh_num,hh_num_under18,2.627993481894955,other
+fertility,flood,2.600341950554866,other
+drought,electricity,2.589415739083585,other
+intercrop,plant_spacing,2.5491491799083694,other
+hh_num_under18,soil_potassium,2.506265028960382,practice x soil
+pesticide,soil_sand,2.4987798958721883,practice x soil
+plant_spacing,slope,2.4938827930366823,other
+compost,soil_carbon,2.4933051567082294,practice x soil
+pest_disease,soil_clay,2.4804840961308217,practice x soil
+dap_kg_ha,hh_num_under18,2.4690144131736207,other
+hh_num,weed,2.459865284464322,other
+can_kg_ha,intercrop,2.4218768893306453,other
+intercrop,soil_ph,2.418991590714237,practice x soil
+intercrop,soil_carbon,2.411277022866222,practice x soil
+intercrop,soil_nitrogen,2.4077465595273924,practice x soil
+compost,seed_type,2.370491502250564,other
+soil_ph,weed,2.361796726208025,practice x soil
+slope,soil_ph,2.3543550994594504,practice x soil
+electricity,weed,2.2789664331063006,other
+intercrop,plant_doy,2.24952998588793,other
+compost,row_spacing,2.240685635035237,other
+compost,distance_meter,2.238712667178188,other
+compost,soil_ph,2.2328455841642185,practice x soil
+drought,intercrop,2.223000294585557,other
+soil_sand,weed,2.1990888565941713,practice x soil
+hh_num,plot_hectares,2.1593963449580285,other
+electricity,hh_num,2.1367348029782685,other
+fertility,pest_disease,2.092335223383658,other
+electricity,flood,2.0798939381415646,other
+compost,drought,2.071646900855315,other
+hh_num_under18,row_spacing,2.0627393907816924,other
+electricity,hh_num_under18,2.0472715492065374,other
+flood,pesticide,2.0375547096397106,other
+hh_num,soil_clay,2.028016368703296,practice x soil
+drought,flood,2.0223872856376692,other
+flood,row_spacing,2.0139744101827577,other
+intercrop,soil_potassium,2.0058381416555493,practice x soil
+fertility,intercrop,1.9100654402460593,other
+compost,hh_num,1.8724451025788829,other
+intercrop,soil_clay,1.8559310127391169,practice x soil
+flood,soil_phosphorus,1.8456470324549203,practice x soil
+hh_num_under18,soil_carbon,1.808498495320479,practice x soil
+hh_num_under18,pesticide,1.8037964024813846,other
+distance_meter,hh_num_under18,1.7882074835407549,other
+intercrop,soil_sand,1.7849701500621935,practice x soil
+can_kg_ha,hh_num_under18,1.777902990995596,other
+can_kg_ha,slope,1.7700152644589737,other
+hh_num_under18,soil_ph,1.7620481125979375,practice x soil
+distance_meter,hh_num,1.7568583353899885,other
+pest_disease,soil_phosphorus,1.7461173263859624,practice x soil
+slope,soil_sand,1.7382448622000326,practice x soil
+flood,seed_type,1.7121405006109853,other
+hh_num,soil_ph,1.7004769057186786,practice x soil
+compost,plot_hectares,1.6866891600370097,other
+drought,lime_kg_ha,1.636721813448239,other
+flood,soil_sand,1.6282508648435274,practice x soil
+slope,soil_phosphorus,1.58780516883727,practice x soil
+compost,livestock,1.5814516082611711,other
+slope,soil_carbon,1.5713204186384488,practice x soil
+compost,dap_kg_ha,1.563564130535815,other
+intercrop,weed,1.5522155381708096,other
+compost,soil_phosphorus,1.5519842527783476,practice x soil
+intercrop,livestock,1.5468816163646988,other
+lime_kg_ha,slope,1.5407238662157519,other
+hh_num_under18,soil_phosphorus,1.536759928727212,practice x soil
+hh_num_under18,livestock,1.529982518828086,other
+drought,hh_num_under18,1.5080207698823263,other
+pest_disease,plant_doy,1.4757350097716941,other
+flood,plant_spacing,1.4424898373479178,other
+intercrop,row_spacing,1.430889172348349,other
+compost,fertility,1.4226750208053272,other
+flood,soil_carbon,1.4082399190108603,practice x soil
+plot_hectares,slope,1.4058338158117234,other
+livestock,slope,1.3496826136123854,other
+electricity,intercrop,1.3104382282198639,other
+compost,soil_sand,1.3013793141806187,practice x soil
+compost,pesticide,1.2585945690446534,other
+hh_num_under18,weed,1.2407227933981146,other
+flood,soil_potassium,1.239267605067386,practice x soil
+hh_num,pesticide,1.2151369265614387,other
+pest_disease,soil_potassium,1.2078933099796996,practice x soil
+drought,slope,1.20627488519977,other
+pest_disease,soil_sand,1.171359061752058,practice x soil
+pesticide,weed,1.1579085230367492,other
+hh_num_under18,slope,1.1536182081552881,other
+compost,flood,1.1531823292933405,other
+flood,soil_nitrogen,1.1366529339776996,practice x soil
+dap_kg_ha,slope,1.1109315418471184,other
+slope,soil_clay,1.0872764288912002,practice x soil
+compost,plant_spacing,1.0681471277533758,other
+dap_kg_ha,flood,1.048751166316215,other
+dap_kg_ha,pest_disease,1.001100017009497,other
+can_kg_ha,flood,0.9694814430984358,other
+pest_disease,soil_ph,0.9479183633066713,practice x soil
+pest_disease,soil_carbon,0.9445208026856805,practice x soil
+hh_num,slope,0.8960095680641825,other
+flood,hh_num,0.893119550216943,other
+distance_meter,intercrop,0.8808819677801997,other
+lime_kg_ha,soil_potassium,0.8529593599339326,practice x soil
+flood,hh_num_under18,0.8137368469405919,other
+compost,hh_num_under18,0.7857113204558845,other
+drought,pest_disease,0.7139603063611624,other
+hh_num,intercrop,0.7120259261891867,other
+electricity,slope,0.6954586977756663,other
+lime_kg_ha,plant_doy,0.6796726193182016,other
+lime_kg_ha,row_spacing,0.6536122291100522,other
+livestock,pest_disease,0.6424278253064646,other
+flood,slope,0.6205151653857562,other
+pest_disease,plot_hectares,0.6130792901548557,other
+lime_kg_ha,soil_nitrogen,0.5838301903417839,practice x soil
+distance_meter,lime_kg_ha,0.5763882162227432,other
+pesticide,slope,0.571165434018864,other
+pest_disease,plant_spacing,0.5502221992557558,other
+lime_kg_ha,weed,0.5426342249584074,other
+lime_kg_ha,soil_sand,0.5371192350991381,practice x soil
+intercrop,pesticide,0.5363468911988214,other
+lime_kg_ha,plant_spacing,0.5246495643498686,other
+hh_num_under18,intercrop,0.48512993545581895,other
+distance_meter,flood,0.4830770316902393,other
+flood,intercrop,0.45909059477659564,other
+intercrop,slope,0.45554653953387364,other
+compost,weed,0.4486450578214135,other
+lime_kg_ha,soil_ph,0.43486829740305744,practice x soil
+lime_kg_ha,plot_hectares,0.432076007569752,other
+flood,weed,0.42940425251455355,other
+lime_kg_ha,livestock,0.4206951805894884,other
+can_kg_ha,lime_kg_ha,0.40218106428006045,other
+compost,intercrop,0.38842916829201085,other
+slope,weed,0.3531819440915327,other
+lime_kg_ha,pest_disease,0.3235350934540232,other
+electricity,pest_disease,0.3166998246622582,other
+pest_disease,soil_nitrogen,0.30066408741869965,practice x soil
+intercrop,pest_disease,0.2891737643318872,other
+fertility,lime_kg_ha,0.2511449032996704,other
+distance_meter,pest_disease,0.2263584692857694,other
+hh_num,pest_disease,0.2204947639396414,other
+pest_disease,weed,0.1941462467511883,other
+lime_kg_ha,soil_phosphorus,0.16806703625402103,practice x soil
+lime_kg_ha,soil_clay,0.16308973360433204,practice x soil
+pest_disease,slope,0.14256528203266497,other
+electricity,lime_kg_ha,0.12834576955453184,other
+lime_kg_ha,pesticide,0.12689629007596523,other
+lime_kg_ha,soil_carbon,0.11725267993596693,practice x soil
+compost,slope,0.10940401475888696,other
+lime_kg_ha,seed_type,0.10848133748490606,other
+compost,lime_kg_ha,0.103914733788309,other
+flood,lime_kg_ha,0.08472383763990365,other
+dap_kg_ha,lime_kg_ha,0.06948012961249334,other
+pest_disease,pesticide,0.05776099848289353,other
+hh_num_under18,lime_kg_ha,0.04605787972415176,other
+hh_num,lime_kg_ha,0.02722825756165548,other
+npk_kg_ha,soil_clay,0.0,practice x soil
+npk_kg_ha,slope,0.0,other
+npk_kg_ha,seed_type,0.0,other
+npk_kg_ha,row_spacing,0.0,other
+npk_kg_ha,soil_carbon,0.0,practice x soil
+npk_kg_ha,plant_spacing,0.0,other
+npk_kg_ha,plant_doy,0.0,other
+npk_kg_ha,pesticide,0.0,other
+npk_kg_ha,pest_disease,0.0,other
+livestock,urea_kg_ha,0.0,other
+hh_num,npk_kg_ha,0.0,other
+livestock,npk_kg_ha,0.0,other
+npk_kg_ha,plot_hectares,0.0,other
+flood,urea_kg_ha,0.0,other
+lime_kg_ha,npk_kg_ha,0.0,other
+intercrop,npk_kg_ha,0.0,other
+hh_num_under18,pest_disease,0.0,other
+intercrop,urea_kg_ha,0.0,other
+soil_ph,urea_kg_ha,0.0,practice x soil
+intercrop,lime_kg_ha,0.0,other
+hh_num_under18,urea_kg_ha,0.0,other
+soil_nitrogen,urea_kg_ha,0.0,practice x soil
+can_kg_ha,npk_kg_ha,0.0,other
+soil_potassium,urea_kg_ha,0.0,practice x soil
+soil_phosphorus,urea_kg_ha,0.0,practice x soil
+soil_sand,urea_kg_ha,0.0,practice x soil
+hh_num_under18,npk_kg_ha,0.0,other
+hh_num,urea_kg_ha,0.0,other
+lime_kg_ha,urea_kg_ha,0.0,other
+npk_kg_ha,weed,0.0,other
+npk_kg_ha,soil_sand,0.0,practice x soil
+distance_meter,urea_kg_ha,0.0,other
+plant_doy,urea_kg_ha,0.0,other
+electricity,npk_kg_ha,0.0,other
+drought,urea_kg_ha,0.0,other
+pesticide,urea_kg_ha,0.0,other
+fertility,urea_kg_ha,0.0,other
+electricity,urea_kg_ha,0.0,other
+fertility,npk_kg_ha,0.0,other
+npk_kg_ha,soil_potassium,0.0,practice x soil
+npk_kg_ha,soil_nitrogen,0.0,practice x soil
+npk_kg_ha,soil_phosphorus,0.0,practice x soil
+npk_kg_ha,soil_ph,0.0,practice x soil
+npk_kg_ha,urea_kg_ha,0.0,other
+pest_disease,urea_kg_ha,0.0,other
+flood,npk_kg_ha,0.0,other
+flood,pest_disease,0.0,other
+compost,urea_kg_ha,0.0,other
+row_spacing,urea_kg_ha,0.0,other
+dap_kg_ha,npk_kg_ha,0.0,other
+drought,npk_kg_ha,0.0,other
+distance_meter,npk_kg_ha,0.0,other
+dap_kg_ha,urea_kg_ha,0.0,other
+plant_spacing,urea_kg_ha,0.0,other
+plot_hectares,urea_kg_ha,0.0,other
+slope,urea_kg_ha,0.0,other
+seed_type,urea_kg_ha,0.0,other
+compost,pest_disease,0.0,other
+compost,npk_kg_ha,0.0,other
+can_kg_ha,urea_kg_ha,0.0,other
+soil_carbon,urea_kg_ha,0.0,practice x soil
+soil_clay,urea_kg_ha,0.0,practice x soil
+urea_kg_ha,weed,0.0,other

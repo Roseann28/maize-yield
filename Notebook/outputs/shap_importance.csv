@@ -1,0 +1,32 @@
+,mean |SHAP| (kg/ha),group,rank
+seed_type,183.33717,Practice or input,1
+can_kg_ha,168.07834,Practice or input,2
+drought,155.89915,Field,3
+dap_kg_ha,144.07492,Practice or input,4
+soil_carbon,127.083916,Soil,5
+fertility,120.97621,Field,6
+plot_hectares,110.9832,Field,7
+soil_phosphorus,110.71456,Soil,8
+electricity,81.9404,Household,9
+soil_nitrogen,80.11522,Soil,10
+row_spacing,80.0085,Practice or input,11
+soil_ph,76.05302,Soil,12
+pesticide,64.394455,Practice or input,13
+plant_doy,59.770824,Practice or input,14
+soil_clay,53.696884,Soil,15
+plant_spacing,53.506546,Practice or input,16
+soil_potassium,51.41224,Soil,17
+livestock,41.1069,Household,18
+weed,38.237156,Practice or input,19
+soil_sand,34.428787,Soil,20
+distance_meter,25.17864,Field,21
+compost,21.037407,Practice or input,22
+hh_num_under18,16.628117,Household,23
+flood,14.525985,Field,24
+hh_num,13.198311,Household,25
+intercrop,13.153068,Practice or input,26
+slope,11.577424,Field,27
+pest_disease,5.8188605,Field,28
+lime_kg_ha,1.8000573,Practice or input,29
+npk_kg_ha,0.0,Practice or input,30
+urea_kg_ha,0.0,Practice or input,31

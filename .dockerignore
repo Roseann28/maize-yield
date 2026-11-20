@@ -1,0 +1,9 @@
+.venv
+.git
+**/__pycache__
+Notebook
+Presentation
+Data/one_acre_fund.xlsx
+API/tests
+Model/train_model.py
+Data/build_kenya_soil_grid.py

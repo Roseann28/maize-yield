@@ -1,0 +1,26 @@
+# Everything needed to run the notebook, the API and the tests locally:  pip install -r requirements.txt
+# The model libraries are pinned to the versions the saved model was built with.
+numpy==2.5.3
+pandas==3.0.5
+scipy==1.18.1
+scikit-learn==1.9.1
+xgboost==3.4.1
+shap==0.54.1
+joblib==1.6.0
+fastapi==0.163.2
+uvicorn==0.54.0
+pydantic==2.13.5
+
+# added for the notebook
+openpyxl==3.1.5
+matplotlib>=3.9
+seaborn>=0.13
+statsmodels>=0.14
+lightgbm>=4.5
+catboost>=1.2
+optuna>=4.0
+ipykernel>=6.29
+
+# added for the tests
+pytest==9.1.1
+httpx==0.28.1

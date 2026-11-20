@@ -1,0 +1,8 @@
+name: maize-yield
+services:
+  api:                                  # docker compose up --build   ->  http://localhost:8000/docs
+    build: .
+    image: maize-yield:1.0.0
+    container_name: maize-yield
+    ports: ["8000:8000"]
+    restart: unless-stopped

@@ -1,0 +1,4 @@
+split,RMSE,R2
+Whole districts held out (used in this study),1530.8449891704745,0.18364869376409076
+Whole years held out,1553.5087727950995,0.1592980045870772
+Random split (too optimistic),1454.0196688738545,0.26352972841867817

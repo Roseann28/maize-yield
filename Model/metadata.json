@@ -1,0 +1,142 @@
+{
+ "version": "1.0.0",
+ "trained_at": "2026-11-20T03:59:25+00:00",
+ "n_records": 17127,
+ "n_districts": 41,
+ "years": [
+  2016,
+  2017,
+  2018,
+  2019
+ ],
+ "target": "maize yield, kg per hectare",
+ "features": [
+  "plant_doy",
+  "plant_spacing",
+  "row_spacing",
+  "weed",
+  "dap_kg_ha",
+  "can_kg_ha",
+  "urea_kg_ha",
+  "npk_kg_ha",
+  "lime_kg_ha",
+  "plot_hectares",
+  "hh_num",
+  "hh_num_under18",
+  "livestock",
+  "intercrop",
+  "compost",
+  "pesticide",
+  "pest_disease",
+  "drought",
+  "flood",
+  "electricity",
+  "seed_type",
+  "slope",
+  "distance_meter",
+  "fertility",
+  "soil_ph",
+  "soil_carbon",
+  "soil_nitrogen",
+  "soil_phosphorus",
+  "soil_potassium",
+  "soil_sand",
+  "soil_clay"
+ ],
+ "categories": {
+  "seed_type": [
+   "dk_8031",
+   "h_614d",
+   "h_6213",
+   "h_6218",
+   "local",
+   "local_maize",
+   "localmaize",
+   "other_hybrid",
+   "other_variety",
+   "otherhybrid",
+   "pan_691",
+   "sc_duma_43",
+   "sc_simba_61",
+   "wh_505",
+   "wh_509"
+  ],
+  "slope": [
+   "footslope",
+   "hilltop",
+   "midslope",
+   "shoulder",
+   "valley"
+  ],
+  "distance_meter": [
+   "1-50 m",
+   "100-200 m",
+   "1000+ m",
+   "200-500 m",
+   "50-100 m",
+   "500-1000 m"
+  ],
+  "fertility": [
+   "better",
+   "dont_know",
+   "same",
+   "this_is_the_only_field_i_farm",
+   "worse"
+  ]
+ },
+ "defaults": {
+  "plant_doy": 82.0,
+  "plant_spacing": 32.555557,
+  "row_spacing": 77.666656,
+  "weed": 2.0,
+  "dap_kg_ha": 102.95833662800001,
+  "can_kg_ha": 49.42,
+  "urea_kg_ha": 0.0,
+  "npk_kg_ha": 0.0,
+  "lime_kg_ha": 0.0,
+  "plot_hectares": 0.20234722784297854,
+  "hh_num": 6.0,
+  "hh_num_under18": 3.0,
+  "livestock": 4.0,
+  "intercrop": 1.0,
+  "compost": 0.0,
+  "pesticide": 0.0,
+  "pest_disease": 1.0,
+  "drought": 0.0,
+  "flood": 0.0,
+  "electricity": 0.0,
+  "seed_type": "h_6213",
+  "slope": "midslope",
+  "distance_meter": "1-50 m",
+  "fertility": "same"
+ },
+ "best_params": {
+  "model__subsample": 0.7,
+  "model__reg_lambda": 10,
+  "model__n_estimators": 200,
+  "model__min_child_weight": 20,
+  "model__max_depth": 6,
+  "model__learning_rate": 0.05,
+  "model__colsample_bytree": 1.0
+ },
+ "district_blocked_estimate": {
+  "RMSE_kg_ha": 1501.5266808978845,
+  "R2": 0.21461832225416122,
+  "residual_quantiles_kg_ha": {
+   "q10": -1741.15734890625,
+   "q90": 1935.5025629687493
+  },
+  "note": "out of fold, training years 2016 to 2019, every district predicted by a model that never saw it"
+ },
+ "test_2020": {
+  "RMSE_kg_ha": 1482.0752313245098,
+  "MAE_kg_ha": 1135.8241230898204,
+  "R2": 0.09915956388374125,
+  "n_records": 5774
+ },
+ "versions": {
+  "python": "3.14.2",
+  "scikit-learn": "1.9.1",
+  "xgboost": "3.4.1"
+ }
+}
