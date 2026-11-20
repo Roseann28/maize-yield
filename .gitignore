@@ -2,4 +2,3 @@
 __pycache__/
 .pytest_cache/
 Notebook/catboost_info/
-Data/one_acre_fund.xlsx
