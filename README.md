@@ -33,24 +33,22 @@ $env:PYTHONPATH = "API/src"
 # macOS or Linux instead: export PYTHONPATH=API/src
 uvicorn maize.api:app --reload
 ```
-Try `POST /predict` with latitude `0.28` and longitude `34.75`. Farm practices are optional. Anything left out is filled with the survey median or most common value, and the response says so.
+Try `POST /predict` with latitude `0.28` and longitude `34.75`. Farm practices are optional. Anything left out is filled with the survey median or most common value, and the response says so. Only the listed practice names and allowed values are accepted, and anything else is rejected with a clear error.
 
-Run the tests (11) from the `API` folder with `python -m pytest`.
+Run the tests (16) from the `API` folder with `python -m pytest`.
 
 ## Results (from `Notebook/outputs`)
-Training years 2016 to 2019, test year 2020, cross validation inside the training years holds out whole districts.
+Training years 2016 to 2019, test year 2020, cross validation inside the training years holds out whole districts. Error is the typical size of a prediction miss, in kg per hectare (RMSE). Lower is better.
 
-| | XGBoost | Random forest |
+| Error (kg/ha) | Cross validation | 2020 test |
 |---|---|---|
-| Cross validation R², practices plus soil | 0.215 | 0.196 |
-| 2020 test R², practices plus soil | 0.101 (95% interval 0.03 to 0.17) | 0.123 |
-| 2020 test R², practices only | 0.114 | 0.129 |
-| 2020 test R², soil only | -0.008 | 0.023 |
+| XGBoost, practices plus soil | about 1,500 | about 1,480 |
+| Always guessing the training mean | about 1,700 | about 1,560 |
 
-* Individual field predictions are weak. Averaged to district level the cross validation R² is 0.63.
-* Soil adds a little in cross validation (RMSE about 23 kg/ha lower) but not on the 2020 test season.
+* Individual field predictions are weak. The model beats the simple guess by a modest margin. Averaged to district level the predictions are much closer to the survey averages.
+* Soil adds a little in cross validation (error about 23 kg/ha lower) but not on the 2020 test season.
 * The model has no weather data and is trained on western Kenya. Treat predictions as estimates with a wide range, not guarantees.
 * The data are observational, so the effects shown by SHAP are associations, not causes.
 
 ## Note on the saved model
-`Model/maize_model.joblib` was trained earlier on all five seasons, and its stored estimate (`Model/metadata.json`, R² 0.205, whole districts held out) comes from that earlier setup. The notebook does not save a model, so the served model is not the same run as the notebook results above.
+`Model/maize_model.joblib` was trained earlier on all five seasons, and its stored estimate (`Model/metadata.json`) comes from that earlier setup. The notebook does not save a model, so the served model is not the same run as the notebook results above.
