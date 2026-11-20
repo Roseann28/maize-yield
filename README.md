@@ -20,22 +20,11 @@ The project predicts maize yield (kg per hectare) from farm practices and soil p
 ## Run the notebook
 1. Create a virtual environment and run `pip install -r requirements.txt`.
 2. Put `one_acre_fund.xlsx` in the `Data` folder.
-3. Open `Notebook/maize_yield_analysis.ipynb` in VS Code, pick the environment as the kernel and run the cells from the top. The notebook reads `../Data/...`, so keep the folder layout as it is. The full run takes about 40 minutes.
+3. Open `Notebook/maize_yield_analysis.ipynb` in VS Code, pick the environment as the kernel and run the cells from the top. The notebook reads `../Data/...`, so keep the folder layout as it is.
 
 ## Run the API
-With Docker: `docker compose up --build`, then open http://localhost:8000/docs.
-
-Without Docker, from the project folder:
-```bash
-pip install -r requirements.txt
-# Windows PowerShell
-$env:PYTHONPATH = "API/src"
-# macOS or Linux instead: export PYTHONPATH=API/src
-uvicorn maize.api:app --reload
-```
+`docker compose up --build`, then open http://localhost:8000/docs.
 Try `POST /predict` with latitude `0.28` and longitude `34.75`. Farm practices are optional. Anything left out is filled with the survey median or most common value, and the response says so. Only the listed practice names and allowed values are accepted, and anything else is rejected with a clear error.
-
-Run the tests (16) from the `API` folder with `python -m pytest`.
 
 ## Results (from `Notebook/outputs`)
 Training years 2016 to 2019, test year 2020, cross validation inside the training years holds out whole districts. Error is the typical size of a prediction miss, in kg per hectare (RMSE). Lower is better.
