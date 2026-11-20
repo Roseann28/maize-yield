@@ -2,5 +2,4 @@
 __pycache__/
 .pytest_cache/
 Notebook/catboost_info/
-# the survey data is not mine to publish
 Data/one_acre_fund.xlsx
